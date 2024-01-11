@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" href="./css/style-hexcolor.css">
+</head>
+<body style="background-image: url(./images/background.jpg);">
+    <div class="topnav">
+        <a class="active" href="index.html">Menu</a>
+        <a href="tiktaktoe.html">Tic-Tac-Toe</a>
+    </div>
+<h1>Color Guessing Game</h1>
+<div id="color-label">Guess the color:</div>
+<div id="target-color">
+    <div id="hex-code"></div>
+</div>
+<div id="color-buttons"></div>
+<p id="info"></p>
+<button onclick="resetGame()">Reset</button>
+<div><input id="input" type="number" min="2"></div>
+<script src="./script/main-hexcolor.js"></script>
+</body>
+</html>

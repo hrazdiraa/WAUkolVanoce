@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style-tictactoe.css">
+</head>
+<body style="background-image: url(./images/background.jpg);">
+    <div class="topnav">
+        <a class="active" href="index.html">Menu</a>
+        <a href="hexcolor.html">Hex ColorGuessing Game</a>
+    </div>
+    <div class="controls">
+        <label class="inputLabel" for="input">size of board:</label>
+        <input id="input" type="number" min="3" value="3">
+        <button onclick="setupGame()">Start Game</button>
+       
+    </div>
+    <div style="text-align: center;">        
+        <p id="status"></p>
+    </div>
+    <section>
+        <div class="board" id="game-board"></div>
+    </section>
+
+    <script src="./script/main-tictactoe.js"></script>
+</body>
+</html>
